@@ -1,1 +1,1 @@
-Windowsda aradığınız dosyaları kolayca bulun.
+#Windowsda aradığınız dosyaları kolayca bulun.
