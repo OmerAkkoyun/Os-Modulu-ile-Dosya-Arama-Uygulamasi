@@ -7,13 +7,14 @@ if konum=="C":
     os.chdir("C:/")
     for i,j,dosya_isimleri in os.walk("C:/"):
         for a in dosya_isimleri:
-                if (a.endswith(arama)):
+                if (a.startswith(arama)):
                     print(a,"bulundu. Konumu = ",i)
+
 elif konum=="D":
     os.chdir("D:/")
     for i,j,dosya_isimleri in os.walk("D:/"):
         for a in dosya_isimleri:
-                if (a.endswith(arama)):
+                if (a.startswith(arama)):
                     print(a,"bulundu. Konumu =",i)
 else:
     print("Yanlýþ konum girdiniz C yada D konumunu girin.")
