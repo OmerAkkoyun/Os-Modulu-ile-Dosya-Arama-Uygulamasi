@@ -1,1 +1,1 @@
-# Os Modulu ile Dosya Arama Uygulamasi
+Windowsda aradığınız dosyaları kolayca bulun.
